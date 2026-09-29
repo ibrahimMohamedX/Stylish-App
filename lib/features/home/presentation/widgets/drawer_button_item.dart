@@ -17,7 +17,7 @@ class DrawerButtonItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: ontap,
-      child: Container(
+      child: SizedBox(
         height: 45,
         child: Row(
           children: [
